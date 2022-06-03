@@ -88,3 +88,17 @@ section > ul {
   font-size: 22px;
 }
 
+
+section > ul a {
+  color: yellow;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+
+section > ul a:hover {
+  color: black;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

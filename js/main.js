@@ -7,12 +7,12 @@ var ctx = c.getContext("2d");
 // //Turn transparency on
 ctx.globalAlpha = 0.2;
 ctx.fillStyle = "black"; 
-ctx.fillRect(50, 50, 275, 50); 
+ctx.fillRect(50, 50, 275, 10); 
 // ctx.fillStyle = "brown";
 // ctx.fillRect(80, 80, 175, 50);
 
 // add text to canvas
-ctx.font = "30px Arial";
+ctx.font = "35px cursive";
 ctx.fillText("1900",50,50);
 
 //second canvas
@@ -27,13 +27,22 @@ cctx.globalAlpha = 0.2;
 // cctx.fillRect(80, 80, 175, 50);
 
 cctx.fillStyle = "black"; 
-cctx.fillRect(50, 50, 275, 50);
-
+cctx.fillRect(10, 50, 275, 10);
+cctx.font = "35px cursive";
+cctx.fillText("2022",50,50);
 
 
 // let ccc = document.getElementById('myCanvasThree')
 // let ccctx = ccc.getContext('2d');
 
 // ccctx.globalAlpha = 0.2;
-// ccctx.fillStyle = "white"; 
+// ccctx.fillStyle = "white";
 // ccctx.fillRect(50, 50, 100, 50);
+
+
+
+
+
+
+
+
