@@ -59,9 +59,11 @@ header > ul a {
 
 
 section {
+  margin: 0 auto;
+  padding: 70px 20px 30px 75px;
   width: 50%;
   height: auto;
-  border: 3px oldlace solid;
+  /* border: 3px oldlace solid; */
   float: left;
 }
 
@@ -74,7 +76,26 @@ height: auto;
 position: relative;
 }
 
+article {
+  width: 70%;
+  height: auto;
+  border-bottom: 1px solid black;
+  padding: auto;
+  margin: 10px;
+}
 
+
+article > p i {
+  color: yellow;
+  font-size: 24px;
+}
+
+
+article > h4 {
+  color: yellow;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -86,10 +107,13 @@ section > ul {
   line-height: 2.4;
   list-style: none;
   font-size: 22px;
+  margin: 50px 10px;
+  padding: 10px;
 }
 
 
 section > ul a {
+
   color: yellow;
   text-decoration: none;
   border-bottom: 1px solid black;
