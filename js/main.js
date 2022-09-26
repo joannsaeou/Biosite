@@ -1,48 +1,30 @@
-// reference https://www.w3schools.com/graphics/canvas_text.asp
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-// ctx.fillStyle = "black";
-// ctx.fillRect(20, 20, 175, 50);
-
-// //Turn transparency on
-ctx.globalAlpha = 0.2;
-ctx.fillStyle = "black"; 
-ctx.fillRect(50, 50, 275, 10); 
-// ctx.fillStyle = "brown";
-// ctx.fillRect(80, 80, 175, 50);
-
-// add text to canvas
-ctx.font = "35px cursive";
-ctx.fillText("1900",50,50);
-
-//second canvas
-let cc = document.getElementById('myCanvasTwo')
-let cctx = cc.getContext('2d');
-// cctx.fillStyle = "black";
-// cctx.fillRect(20, 20, 75, 50);
-
-
-cctx.globalAlpha = 0.2;
-// cctx.fillStyle = "brown";
-// cctx.fillRect(80, 80, 175, 50);
-
-cctx.fillStyle = "black"; 
-cctx.fillRect(10, 50, 275, 10);
-cctx.font = "35px cursive";
-cctx.fillText("2022",50,50);
-
-
-// let ccc = document.getElementById('myCanvasThree')
-// let ccctx = ccc.getContext('2d');
-
-// ccctx.globalAlpha = 0.2;
-// ccctx.fillStyle = "white";
-// ccctx.fillRect(50, 50, 100, 50);
 
 
 
 
 
+const test = document.getElementById("test");
 
+// This handler will be executed only once when the cursor
+// moves over the unordered list
+test.addEventListener("mouseenter", (event) => {
+  // highlight the mouseenter target
+  event.target.style.color = "purple";
 
+  // reset the color after a short delay
+  setTimeout(() => {
+    event.target.style.color = "";
+  }, 100);
+}, false);
 
+// This handler will be executed every time the cursor
+// is moved over a different list item
+test.addEventListener("mouseover", (event) => {
+  // highlight the mouseover target
+  event.target.style.color = "red";
+  event.target.style.color = "orange";
+  // reset the color after a short delay
+  setTimeout(() => {
+    event.target.style.color = "";
+  }, 100);
+}, false);
