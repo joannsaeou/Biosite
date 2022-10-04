@@ -27,7 +27,10 @@ body {
   height: auto;
 }
 
+.container mt-3 {
 
+
+}
 
 /******************************************
 /* LAYOUT
@@ -38,11 +41,16 @@ height: auto;
 clear: both;
 }
 
+main {
+position: relative;
+clear: left;
+}
+
 
 img {
 
   position: relative;
-  left: 100px;
+  left: 30px;
 }
 
 
@@ -111,6 +119,12 @@ article {
 article > p i {
   color: #FFDE00;
   font-size: 1rem;
+}
+
+
+#chopper {
+
+  position: static;
 }
 
 @keyframes example {
